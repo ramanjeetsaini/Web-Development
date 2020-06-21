@@ -1,0 +1,27 @@
+link class for storing
+	title 
+	link
+	author
+
+create content element 
+
+createlinkelement 
+	title-element
+	urlelement
+	headlineelement
+	author element
+	link element 
+returns linkelement
+
+create input element 
+create link form
+	create input element for author, title and url
+	submit element 
+	link form element
+		add eventlistener 
+		create new link object
+	newlink element
+	info element
+add links to page
+create link submission form and add it before the first link 
+
