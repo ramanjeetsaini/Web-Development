@@ -1,0 +1,42 @@
+TOP MENU
+
+HTML 
+
+Add the basic menu elements with div tags
+add class attributes
+	menu for all the elements altogether
+	menu_item in each div tag 
+	menu_item--<specific category> for targeting individual div tag
+for css
+	BEM was used - blocks elements and modifiers
+	we will use inline-block for menu_item - this will allow the elements to be in horizontal inline
+	use padding and font-sizing
+	check for font-weight
+	
+
+we will have menu__item--current for current page menu 
+we will have menu__item__link for providing link after hovering over that element
+applu bottom border to menu_items class instead of whole menu as it needs to be removed when we hover the element
+when we hove an element it shifts as border have some widths. 
+	to resolve this we use negative margin so it gives to borders when we hover
+	margin : -1px
+
+
+SUBMENU
+
+changing classes to menu__main__item 
+all the div tags under one div tag named class="menu"
+using :first-child:hover and :last-child:hover 
+
+In general, I almost always find myself taking these steps when creating new components:
+
+	Figure out groupings
+	Name classes and fill divs with text
+	Switch the colors temporarily to give distinct contrast for easier styling
+	Apply spacing styles in the order of outer to the inner (e.g., child divs will be styled after their parent ones)
+	Switch off ugly temporary colors, use real colors, and style the rest.
+
+create menu_sub , menu_sub_categories , menu_sub_categories_category, menu_sub_categories_items ,menu_sub_visual
+	using box-sizing: border-box globally so that we can do calculaton wherever needed. 
+	using vertical-align: top so that top border is aligned for the columns inline.
+	add menu_sub_categories_item_link for making elements link
