@@ -107,7 +107,7 @@ body{
     list-style: none;
     padding: 0;
     line-height: 1.6rem;
-    color = var(--light-grey);
+    color :var(--light-grey);
 }
 
 .menu__sub__categories__item__link{
