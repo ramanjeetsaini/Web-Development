@@ -40,3 +40,8 @@ create menu_sub , menu_sub_categories , menu_sub_categories_category, menu_sub_c
 	using box-sizing: border-box globally so that we can do calculaton wherever needed. 
 	using vertical-align: top so that top border is aligned for the columns inline.
 	add menu_sub_categories_item_link for making elements link
+
+using width and height percentage for expanding and fitting the element within div area
+
+getting data from server
+	using helper.get(endpoint,data,callback)
