@@ -45,3 +45,6 @@ using width and height percentage for expanding and fitting the element within d
 
 getting data from server
 	using helper.get(endpoint,data,callback)
+
+using javascript to display submenu block when main menu element is hovered. 
+	using onmouseenter and onmouseleave event of each menuitem.
