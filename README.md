@@ -7,6 +7,7 @@ Google search bar autocomplete
 This is a clone of google search bar and showcases it's autocomplete feature
 
 Dropdown menu 
+
 It is a practice project to learn creation of sub-menu and server side integration
 
 Social news web app
